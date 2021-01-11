@@ -1,0 +1,7 @@
+# IDE settings
+.vscode
+.idea/*
+.idea/workspace.xml
+
+# Mac files
+.DS_Store
