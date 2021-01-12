@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e443589e-8d13-4f8f-acd3-58e63e927ba5" name="Default Changelist" comment="" />
+    <list default="true" id="e443589e-8d13-4f8f-acd3-58e63e927ba5" name="Default Changelist" comment="Add workbox-config.js file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js.map" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="patch/content/secondary" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mv4DkGvXgk8YhgYOhRAQZZfo8O" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/binary-studio-academy/homapage-01/homepage" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Pusja\AppData\Roaming\npm\node_modules\prettier" />
   </component>
   <component name="RunDashboard">
@@ -39,8 +68,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610360612228</updated>
-      <workItem from="1610360613725" duration="2502000" />
+      <workItem from="1610360613725" duration="6575000" />
+      <workItem from="1610371005742" duration="426000" />
+      <workItem from="1610371471297" duration="11449000" />
     </task>
+    <task id="LOCAL-00001" summary="Add .gitignore file">
+      <created>1610372219996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610372219996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add workbox-config.js file">
+      <created>1610373765002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610373765002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add .travis.yml file">
+      <created>1610376406673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610376406673</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change .travis.yml">
+      <created>1610388747186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610388747186</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add sw.js.map file">
+      <created>1610389510002</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610389510002</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change branch to production">
+      <created>1610390481076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610390481076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -51,10 +125,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add .gitignore file" />
+    <MESSAGE value="Add workbox-config.js file" />
+    <MESSAGE value="Add .travis.yml file" />
+    <MESSAGE value="Change .travis.yml" />
+    <MESSAGE value="Add sw.js.map file" />
+    <MESSAGE value="Change branch to production" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change branch to production" />
   </component>
 </project>
