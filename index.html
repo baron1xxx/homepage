@@ -432,5 +432,17 @@
         </div>
     </article>
 </main>
+<script>
+    const svgObj = document.getElementById('avatar');
+    const avatarDataSrc = 'assets/images/avatar_01.svg';
+    const replaceAvatarDataSrc = 'assets/images/avatar_02.svg';
+
+    function replaceAvatar(dataSrc) {
+        svgObj.setAttribute('data', dataSrc);
+    }
+
+    svgObj.addEventListener('mouseover', replaceAvatar.bind(this, replaceAvatarDataSrc));
+    svgObj.addEventListener('mouseout', replaceAvatar.bind(this, avatarDataSrc));
+</script>
 </body>
 </html>
