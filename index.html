@@ -40,6 +40,10 @@
                 <div class="row">
                     <div class="three wide center aligned column">
                         <!-- Avatar -->
+                        <div class="avatar-wrapper">
+                            <object class="avatar" data="assets/images/avatar_01.svg" role="img"
+                                    aria-label="My profile picture" id="avatar"></object>
+                        </div>
                     </div>
                     <div class="thirteen wide column">
                         <div class="stackable grid">
@@ -428,5 +432,17 @@
         </div>
     </article>
 </main>
+<script>
+    const svgObj = document.getElementById('avatar');
+    const avatarDataSrc = 'assets/images/avatar_01.svg';
+    const replaceAvatarDataSrc = 'assets/images/avatar_02.svg';
+
+    function replaceAvatar(dataSrc) {
+        svgObj.setAttribute('data', dataSrc);
+    }
+
+    svgObj.addEventListener('mouseover', replaceAvatar.bind(this, replaceAvatarDataSrc));
+    svgObj.addEventListener('mouseout', replaceAvatar.bind(this, avatarDataSrc));
+</script>
 </body>
 </html>
